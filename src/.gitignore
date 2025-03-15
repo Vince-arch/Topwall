@@ -3,6 +3,6 @@ package-lock.json
 dist/
 .vite/
 .vscode/
-.DS_Store
-Thumbs.db
+components.json
+jsconfig.json
 counter.jsx
