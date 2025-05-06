@@ -1,6 +1,6 @@
 import React from 'react'
 import intro from '../assets/intro.jpg'
-import Layout from '../components/Layout'
+
 
 
 export const Home = () => {
