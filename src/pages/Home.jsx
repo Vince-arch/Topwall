@@ -1,6 +1,6 @@
 import React from 'react'
 import intro from '../assets/intro.jpg'
-
+import side from '../assets/side.jpg'
 
 
 export const Home = () => {
@@ -25,9 +25,9 @@ export const Home = () => {
       </div>
       <div name='about' className='m-5 flex gap-6 items-center justify-center'>
       <img 
-          src={intro} 
+          src={side} 
           alt='intro image' 
-          className='w-full h-full flex' 
+          className='w-full h-full flex rounded-2xl' 
         />
 
         <p className='flex '>
