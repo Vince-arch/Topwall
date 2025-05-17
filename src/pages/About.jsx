@@ -1,5 +1,7 @@
 import React from 'react'
 import car from '../assets/car.jpg'
+
+
 const About = () => {
   return (
     <div>
@@ -29,10 +31,18 @@ const About = () => {
         <p>
           <span className='font-bold mb-3'>Quick Claims Support:</span> In times of need, we respond swiftly and professionally to help you recover and move forward.
         </p>
-        Our Mission
-        To deliver dependable insurance services with integrity, care, and innovation—empowering our clients to live and work with confidence.
-        Our Vision
-        To be the most trusted and customer-focused insurance provider in the region.
+
+        <div className='flex flex-row'>
+          <div>
+            Our Mission
+            To deliver dependable insurance services with integrity, care, and innovation—empowering our clients to live and work with confidence.
+          </div>
+          <div>
+            Our Vision
+            To be the most trusted and customer-focused insurance provider in the region.
+          </div>
+
+        </div>
         Why Choose Us?
         Transparent pricing
         Easy-to-understand policies
