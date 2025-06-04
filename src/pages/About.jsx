@@ -10,9 +10,10 @@ const About = () => {
         <img
           src={car}
           alt='car'
-          className='h-96 w-full '
+          className='h-96 w-full object-cover'
         />
       </div>
+
       <div name='body' className='m-5'>
         <h1 className=' text-center p-10 text-blue-400 font-extrabold text-3xl'>About Us</h1>
 
