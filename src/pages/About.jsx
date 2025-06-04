@@ -1,10 +1,11 @@
 import React from 'react'
 import car from '../assets/car.jpg'
-
+import mission from '../assets/mission.png'
+import vision from '../assets/vision.png'
 
 const About = () => {
   return (
-    <div>
+    <div className=''>
       <div name='intro' className='h-auto w-auto'>
         <img
           src={car}
@@ -12,7 +13,7 @@ const About = () => {
           className='h-96 w-full '
         />
       </div>
-      <div name='body' className=''>
+      <div name='body' className='m-5'>
         <h1 className=' text-center p-10 text-blue-400 font-extrabold text-3xl'>About Us</h1>
 
         <p className='font-bold'>Protecting What Matters Most.</p>
@@ -32,22 +33,40 @@ const About = () => {
           <span className='font-bold mb-3'>Quick Claims Support:</span> In times of need, we respond swiftly and professionally to help you recover and move forward.
         </p>
 
-        <div className='flex flex-row'>
-          <div>
-            Our Mission
-            To deliver dependable insurance services with integrity, care, and innovation—empowering our clients to live and work with confidence.
+        <div className='pt-10'>
+          <div className='flex flex-row items-center pb-3'>
+            <img
+              src={mission}
+              alt='mission'
+              className='h-21 w-21 '
+            />
+            <p className='ml-4'>
+              <span className='font-semibold'>Our Mission:</span><br />
+              To deliver dependable insurance services with integrity, care, and innovation—empowering our clients to live and work with confidence.
+            </p>
           </div>
-          <div>
-            Our Vision
-            To be the most trusted and customer-focused insurance provider in the region.
+          <div className='flex flex-row items-center pt-3'>
+            <img
+              src={vision}
+              alt='vision'
+              className='h-21 w-21'
+            />
+            <p className='ml-4'>
+              <span className='font-semibold'>Our Vision:</span><br />
+              To be the most trusted and customer-focused insurance provider in the region.
+            </p>
           </div>
 
+
         </div>
-        Why Choose Us?
-        Transparent pricing
-        Easy-to-understand policies
-        Fast and fair claims process
-        Friendly, knowledgeable support
+        <div className='m-5'>
+          <span className='text-blue-700 font-bold'>Why Choose Us? </span><br />
+          Transparent pricing <br />
+          Easy-to-understand policies <br />
+          Fast and fair claims process <br />
+          Friendly, knowledgeable support <br />
+        </div>
+
       </div>
     </div>
   )
