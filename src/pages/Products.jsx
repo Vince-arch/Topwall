@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Make sure you're using react-router
+import { Link } from 'react-router-dom';
 
 const policies = [
   { id: 1, name: "Automobile Insurance", description: "Coverage for motor vehicles and drivers." },
