@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import automobile from "../assets/policies/automobile.jpg";
 
 const policies = [
-  { id: 1, name: "Automobile Insurance", description: "Coverage for motor vehicles and drivers." },
+  { id: 1, name: "Automobile Insurance", description: "Coverage for motor vehicles and drivers.", img: automobile },
   { id: 2, name: "Contractors All Risks", description: "Protects construction projects against damage or loss." },
   { id: 3, name: "Public Liability", description: "Covers legal liabilities to third parties." },
   { id: 4, name: "Agro-insurance", description: "Insurance solutions for farmers and agribusinesses." },
@@ -34,13 +35,26 @@ const Products = () => {
         {policies.map((policy) => (
           <div
             key={policy.id}
-            className="bg-white border border-gray-200 rounded-xl shadow-sm p-4 hover:shadow-md transition"
+            className="bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition overflow-hidden"
           >
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">{policy.name}</h2>
-            <p className="text-sm text-gray-600">{policy.description}</p>
-            <Link to={`/products/${policy.id}`} className="mt-4 inline-block text-sm text-blue-600 hover:underline">
-              Learn More →
-            </Link>
+            {policy.img && (
+              <img
+                src={policy.img}
+                alt={policy.name}
+                className="w-full h-40 object-cover"
+                loading="lazy"
+              />
+            )}
+            <div className="p-4">
+              <h2 className="text-lg font-semibold text-gray-800 mb-2">{policy.name}</h2>
+              <p className="text-sm text-gray-600">{policy.description}</p>
+              <Link
+                to={`/products/${policy.id}`}
+                className="mt-4 inline-block text-sm text-blue-600 hover:underline"
+              >
+                Learn More →
+              </Link>
+            </div>
           </div>
         ))}
       </div>
