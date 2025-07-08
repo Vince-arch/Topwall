@@ -6,7 +6,7 @@ import pliability from "../assets/policies/pliability.jpg";
 import agro from "../assets/policies/agro.jpg"
 import empliability from "../assets/policies/empliability.jpg"
 import marine from "../assets/policies/marine.jpg"
-
+import livestock from "../assets/policies/livestock.jpg"
 
 const policies = [
   { id: 1, name: "Motor Insurance", description: "Coverage for motor vehicles and drivers.", img: motor },
@@ -15,7 +15,7 @@ const policies = [
   { id: 4, name: "Agro-insurance", description: "Insurance solutions for farmers and agribusinesses.", img: agro },
   { id: 5, name: "Employer’s Liability", description: "Protects employers from employee injury claims.", img: empliability },
   { id: 6, name: "Marine", description: "Provides coverage for cargo and vessels against loss or damage during transit over sea and inland waterways.", img: marine },
-  { id: 7, name: "Livestock Insurance", description: "Coverage for livestock against death or disease." },
+  { id: 7, name: "Livestock Insurance", description: "Coverage for livestock against death or disease.", img: livestock },
   { id: 8, name: "Money Insurance & Fidelity Guarantee", description: "Covers loss of money and employee dishonesty." },
   { id: 9, name: "Domestic Package", description: "Comprehensive protection for homes and belongings." },
   { id: 10, name: "Fire and Allied Perils", description: "Coverage against fire, explosions, and related risks." },
