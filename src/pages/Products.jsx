@@ -4,7 +4,6 @@ import policies from "../assets/data/policies";
 
 
 
-
 const Products = () => {
   return (
     <div className="p-6">
