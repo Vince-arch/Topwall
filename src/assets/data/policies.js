@@ -13,6 +13,8 @@ import {
     git,
     cit,
     medical,
+    paccident,
+    pindemnity
 } from "../policies";
 
 const policies = [
@@ -98,18 +100,20 @@ const policies = [
     {
         id: 14,
         name: "Medical/Health Insurance",
-        description: "Covers costs for treatment, hospitalization, and medication due to illness or injury",
+        description: "Covers costs for treatment, hospitalization, and medication due to illness or injury.",
         img: medical,
     },
     {
         id: 15,
         name: "Personal Accident Insurance",
         description: "Financial protection after accidents or injury.",
+        img: paccident,
     },
     {
         id: 16,
         name: "Professional Indemnity",
         description: "Covers professionals against negligence claims.",
+        img: pindemnity,
     },
     {
         id: 17,
@@ -123,7 +127,7 @@ const policies = [
     },
     {
         id: 19,
-        name: "WIBA/Group Personal Accident (GPA)",
+        name: "WIBA",
         description: "Work Injury Benefits Act compliant group cover.",
     },
     {

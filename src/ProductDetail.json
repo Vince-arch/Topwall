@@ -78,12 +78,12 @@
     {
         "id": 15,
         "name": "Personal Accident Insurance",
-        "description": "Financial protection after accidents or injury."
+        "description": "Personal Accident Insurance provides financial compensation in the event of injury, disability, or death caused solely by accidental, external, and visible events. It covers medical expenses, temporary or permanent disability, and accidental death, helping individuals or their families cope with the financial impact of unexpected accidents. This insurance is ideal for protecting income and ensuring financial stability during recovery or in case of loss of life."
     },
     {
         "id": 16,
         "name": "Professional Indemnity",
-        "description": "Covers professionals against negligence claims."
+        "description": "Professional Indemnity Insurance provides protection for professionals against legal liability arising from mistakes, negligence, or omissions in the course of their work. It covers legal costs, settlements, or compensation claims made by clients who suffer loss due to the professional's advice or service. This insurance is essential for consultants, lawyers, architects, engineers, medical practitioners, and other professionals offering expert services."
     },
     {
         "id": 17,

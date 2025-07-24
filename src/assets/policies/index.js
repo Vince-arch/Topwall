@@ -12,6 +12,8 @@ import mmalpractice from "./mmalpractice.jpg"
 import git from "./git.jpg"
 import cit from "./cit.jpg"
 import medical from "./medical.jpg"
+import paccident from "./paccident.jpg"
+import pindemnity from "./pindemnity.jpg"
 
 export {
     motor,
@@ -28,4 +30,6 @@ export {
     git,
     cit,
     medical,
+    paccident,
+    pindemnity,
 };
