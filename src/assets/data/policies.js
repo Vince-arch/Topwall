@@ -6,6 +6,13 @@ import {
     empliability,
     marine,
     livestock,
+    fidelity,
+    domestic,
+    fire,
+    mmalpractice,
+    git,
+    cit,
+    medical,
 } from "../policies";
 
 const policies = [
@@ -56,36 +63,43 @@ const policies = [
         id: 8,
         name: "Money Insurance & Fidelity Guarantee",
         description: "Covers loss of money and employee dishonesty.",
+        img: fidelity,
     },
     {
         id: 9,
         name: "Domestic Package",
         description: "Comprehensive protection for homes and belongings.",
+        img: domestic,
     },
     {
         id: 10,
         name: "Fire and Allied Perils",
         description: "Coverage against fire, explosions, and related risks.",
+        img: fire,
     },
     {
         id: 11,
-        name: "Hospital Malpractice",
+        name: "Medical Malpractice",
         description: "Protects medical professionals from legal claims.",
+        img: mmalpractice,
     },
     {
         id: 12,
-        name: "Good in Transit",
-        description: "",
+        name: "Goods in Transit",
+        description: "Covers goods against loss or damage during transportation by road, rail, sea, or air.",
+        img: git,
     },
     {
         id: 13,
         name: "Cash in Transit",
-        description: "",
+        description: "covers loss of money due to theft or robbery while being transported.",
+        img: cit,
     },
     {
         id: 14,
         name: "Medical/Health Insurance",
-        description: "Comprehensive health coverage plans.",
+        description: "Covers costs for treatment, hospitalization, and medication due to illness or injury",
+        img: medical,
     },
     {
         id: 15,
@@ -119,11 +133,6 @@ const policies = [
     },
     {
         id: 21,
-        name: "Familia Imara Last Expense",
-        description: "Affordable funeral expense coverage.",
-    },
-    {
-        id: 22,
         name: "Group Personal Accident (GPA)",
         description:
             "Covers a group of individuals against accidental injury, disability, or death.",

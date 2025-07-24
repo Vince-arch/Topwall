@@ -38,42 +38,42 @@
     {
         "id": 7,
         "name": "Livestock Insurance",
-        "description": "Coverage for livestock against death or disease."
+        "description": "Livestock Insurance provides financial protection against the loss of animals due to accidents, diseases, theft, or natural disasters. It helps farmers and livestock owners recover losses and maintain their income in case of unexpected events."
     },
     {
         "id": 8,
         "name": "Money Insurance & Fidelity Guarantee",
-        "description": "Covers loss of money and employee dishonesty."
+        "description": "covers loss of cash, cheques, or other financial instruments while in transit, at business premises, or in a safe. It protects businesses against risks like theft, robbery, or accidental loss of money during routine operations."
     },
     {
         "id": 9,
         "name": "Domestic Package",
-        "description": "Comprehensive protection for homes and belongings."
+        "description": "Domestic Package Insurance offers combined coverage for your home and its contents against risks like fire, theft, accidental damage, and liabilities. It typically includes protection for buildings, personal belongings, electronics, and third-party injuries occurring at home."
     },
     {
         "id": 10,
         "name": "Fire and Allied Perils",
-        "description": "Coverage against fire, explosions, and related risks."
+        "description": "Fire and Allied Perils Insurance covers damage or loss to property caused by fire and related risks such as lightning, explosions, storms, floods, and riots. It protects buildings, stock, and equipment against unexpected destructive events."
     },
     {
         "id": 11,
         "name": "Hospital Malpractice",
-        "description": "Protects medical professionals from legal claims."
+        "description": "Hospital Malpractice Insurance protects hospitals and healthcare professionals against legal liability arising from medical negligence, errors, or omissions. It covers legal costs, settlements, and compensation claims made by patients."
     },
     {
         "id": 12,
         "name": "Goods in Transit",
-        "description": ""
+        "description": "Protects goods against loss or damage while being transported from one location to another, whether by road, rail, air, or sea. It covers risks such as theft, accidents, fire, and natural disasters that may occur during the journey. This insurance provides financial protection for businesses and individuals moving goods locally or internationally."
     },
     {
         "id": 13,
         "name": "Cash in Transit",
-        "description": ""
+        "description": "Protects businesses against the loss of money while it's being moved from one place to another—such as from premises to a bank or between branches. It covers risks like theft, robbery, or accidental loss during the transit process, offering financial security and peace of mind during routine cash handling operations."
     },
     {
         "id": 14,
-        "name": "Medical/Health Insurance",
-        "description": "Comprehensive health coverage plans."
+        "name": "Medical/ Health Insurance",
+        "description": "Provides financial cover for medical expenses arising from illness, injury, or hospitalization. It typically covers consultation fees, diagnostic tests, hospital stays, surgeries, and prescribed medication. This insurance helps reduce the financial burden of healthcare costs and ensures access to timely medical treatment for individuals and families."
     },
     {
         "id": 15,
@@ -107,11 +107,6 @@
     },
     {
         "id": 21,
-        "name": "Familia Imara Last Expense",
-        "description": "Affordable funeral expense coverage."
-    },
-    {
-        "id": 22,
         "name": "Group Personal Accident (GPA)",
         "description": "Provides group-based coverage for accidental injury, disability, or death. It offers financial protection to employees, members, or teams in the event of unforeseen accidents.",
         "img": "gpa"
