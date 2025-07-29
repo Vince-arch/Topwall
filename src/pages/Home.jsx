@@ -1,14 +1,15 @@
 import React from 'react'
-import intro from '../assets/intro.jpg'
-import side from '../assets/side.jpg'
-
+//import intro from '../assets/intro.jpg'
+//import side from '../assets/side.jpg'
+import insurance from "../assets/insurance.jpg"
+import twimage from "../assets/twimage.png"
 
 export const Home = () => {
   return (
     <>
-      <div name='intro' className='relative group'>
+      <div name='intro' className='relative group '>
         <img
-          src={intro}
+          src={insurance}
           alt='intro image'
           className='w-screen h-screen flex items-center justify-center text-white transition-all duration-300'
         />
@@ -23,14 +24,14 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div name='about' className='m-5 flex gap-6 items-center justify-center'>
+      <div name='about' className='mt-15 ml-8 mb-15 flex gap-6 items-center justify-center'>
         <img
-          src={side}
+          src={twimage}
           alt='intro image'
-          className='w-full h-full flex rounded-2xl'
+          className='w-full h-full flex rounded-xl'
         />
 
-        <p className='flex '>
+        <p className='flex text-xl'>
           Established in 2002, Topwall Insurance Agency Ltd is a reputable
           insurance agency based in Nakuru, Kenya. We specialize in tailoring
           insurance policies to meet individual needs, ensuring cost-effective
@@ -38,7 +39,7 @@ export const Home = () => {
           span various sectors, including land, air, and marine insurance.
         </p>
       </div>
-      <div name='services'>
+      <div name='couresel'>
 
       </div>
       <div name='testimonials'>

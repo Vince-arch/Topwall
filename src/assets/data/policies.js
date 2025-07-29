@@ -14,7 +14,11 @@ import {
     cit,
     medical,
     paccident,
-    pindemnity
+    pindemnity,
+    theft,
+    wiba,
+    travel,
+    gpa
 } from "../policies";
 
 const policies = [
@@ -119,27 +123,25 @@ const policies = [
         id: 17,
         name: "Theft/ Burglary Insurance",
         description: "Protection against loss from burglary and theft.",
+        img: theft,
     },
     {
         id: 18,
-        name: "Student Personal Cover",
-        description: "Accident coverage for students.",
+        name: "WIBA",
+        description: "Work Injury Benefits Act compliant group cover.",
+        img: wiba,
     },
     {
         id: 19,
-        name: "WIBA",
-        description: "Work Injury Benefits Act compliant group cover.",
+        name: "Travel",
+        description: "Travel-related emergency and health cover.",
+        img: travel
     },
     {
         id: 20,
-        name: "Travel",
-        description: "Travel-related emergency and health cover.",
-    },
-    {
-        id: 21,
         name: "Group Personal Accident (GPA)",
-        description:
-            "Covers a group of individuals against accidental injury, disability, or death.",
+        description: "Covers a group of individuals against accidental injury, disability, or death.",
+        img: gpa
     },
 ];
 

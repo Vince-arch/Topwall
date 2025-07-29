@@ -38,77 +38,84 @@
     {
         "id": 7,
         "name": "Livestock Insurance",
-        "description": "Livestock Insurance provides financial protection against the loss of animals due to accidents, diseases, theft, or natural disasters. It helps farmers and livestock owners recover losses and maintain their income in case of unexpected events."
+        "description": "Livestock Insurance provides financial protection against the loss of animals due to accidents, diseases, theft, or natural disasters. It helps farmers and livestock owners recover losses and maintain their income in case of unexpected events.",
+        "img": "livestock"
     },
     {
         "id": 8,
         "name": "Money Insurance & Fidelity Guarantee",
-        "description": "covers loss of cash, cheques, or other financial instruments while in transit, at business premises, or in a safe. It protects businesses against risks like theft, robbery, or accidental loss of money during routine operations."
+        "description": "covers loss of cash, cheques, or other financial instruments while in transit, at business premises, or in a safe. It protects businesses against risks like theft, robbery, or accidental loss of money during routine operations.",
+        "img": "fidelity"
     },
     {
         "id": 9,
         "name": "Domestic Package",
-        "description": "Domestic Package Insurance offers combined coverage for your home and its contents against risks like fire, theft, accidental damage, and liabilities. It typically includes protection for buildings, personal belongings, electronics, and third-party injuries occurring at home."
+        "description": "Domestic Package Insurance offers combined coverage for your home and its contents against risks like fire, theft, accidental damage, and liabilities. It typically includes protection for buildings, personal belongings, electronics, and third-party injuries occurring at home.",
+        "img": "domestic"
     },
     {
         "id": 10,
         "name": "Fire and Allied Perils",
-        "description": "Fire and Allied Perils Insurance covers damage or loss to property caused by fire and related risks such as lightning, explosions, storms, floods, and riots. It protects buildings, stock, and equipment against unexpected destructive events."
+        "description": "Fire and Allied Perils Insurance covers damage or loss to property caused by fire and related risks such as lightning, explosions, storms, floods, and riots. It protects buildings, stock, and equipment against unexpected destructive events.",
+        "img": "fire"
     },
     {
         "id": 11,
-        "name": "Hospital Malpractice",
-        "description": "Hospital Malpractice Insurance protects hospitals and healthcare professionals against legal liability arising from medical negligence, errors, or omissions. It covers legal costs, settlements, and compensation claims made by patients."
+        "name": "Medical Malpractice",
+        "description": "Medical Malpractice Insurance protects hospitals and healthcare professionals against legal liability arising from medical negligence, errors, or omissions. It covers legal costs, settlements, and compensation claims made by patients.",
+        "img": "mmalpractice"
     },
     {
         "id": 12,
         "name": "Goods in Transit",
-        "description": "Protects goods against loss or damage while being transported from one location to another, whether by road, rail, air, or sea. It covers risks such as theft, accidents, fire, and natural disasters that may occur during the journey. This insurance provides financial protection for businesses and individuals moving goods locally or internationally."
+        "description": "Protects goods against loss or damage while being transported from one location to another, whether by road, rail, air, or sea. It covers risks such as theft, accidents, fire, and natural disasters that may occur during the journey. This insurance provides financial protection for businesses and individuals moving goods locally or internationally.",
+        "img": "git"
     },
     {
         "id": 13,
         "name": "Cash in Transit",
-        "description": "Protects businesses against the loss of money while it's being moved from one place to another—such as from premises to a bank or between branches. It covers risks like theft, robbery, or accidental loss during the transit process, offering financial security and peace of mind during routine cash handling operations."
+        "description": "Protects businesses against the loss of money while it's being moved from one place to another—such as from premises to a bank or between branches. It covers risks like theft, robbery, or accidental loss during the transit process, offering financial security and peace of mind during routine cash handling operations.",
+        "img": "cit"
     },
     {
         "id": 14,
         "name": "Medical/ Health Insurance",
-        "description": "Provides financial cover for medical expenses arising from illness, injury, or hospitalization. It typically covers consultation fees, diagnostic tests, hospital stays, surgeries, and prescribed medication. This insurance helps reduce the financial burden of healthcare costs and ensures access to timely medical treatment for individuals and families."
+        "description": "Provides financial cover for medical expenses arising from illness, injury, or hospitalization. It typically covers consultation fees, diagnostic tests, hospital stays, surgeries, and prescribed medication. This insurance helps reduce the financial burden of healthcare costs and ensures access to timely medical treatment for individuals and families.",
+        "img": "medical"
     },
     {
         "id": 15,
         "name": "Personal Accident Insurance",
-        "description": "Personal Accident Insurance provides financial compensation in the event of injury, disability, or death caused solely by accidental, external, and visible events. It covers medical expenses, temporary or permanent disability, and accidental death, helping individuals or their families cope with the financial impact of unexpected accidents. This insurance is ideal for protecting income and ensuring financial stability during recovery or in case of loss of life."
+        "description": "Personal Accident Insurance provides financial compensation in the event of injury, disability, or death caused solely by accidental, external, and visible events. It covers medical expenses, temporary or permanent disability, and accidental death, helping individuals or their families cope with the financial impact of unexpected accidents. This insurance is ideal for protecting income and ensuring financial stability during recovery or in case of loss of life.",
+        "img": "paccident"
     },
     {
         "id": 16,
         "name": "Professional Indemnity",
-        "description": "Professional Indemnity Insurance provides protection for professionals against legal liability arising from mistakes, negligence, or omissions in the course of their work. It covers legal costs, settlements, or compensation claims made by clients who suffer loss due to the professional's advice or service. This insurance is essential for consultants, lawyers, architects, engineers, medical practitioners, and other professionals offering expert services."
+        "description": "Professional Indemnity Insurance provides protection for professionals against legal liability arising from mistakes, negligence, or omissions in the course of their work. It covers legal costs, settlements, or compensation claims made by clients who suffer loss due to the professional's advice or service. This insurance is essential for consultants, lawyers, architects, engineers, medical practitioners, and other professionals offering expert services.",
+        "img": "indemnity"
     },
     {
         "id": 17,
         "name": "Theft/ Burglary Insurance",
-        "description": "Protection against loss from burglary and theft."
+        "description": "Theft Insurance provides financial protection against the loss or damage of property resulting from theft or attempted theft. It typically covers burglary, housebreaking, and forcible entry or exit from insured premises. This policy is ideal for individuals and businesses seeking to safeguard valuable assets such as equipment, inventory, or personal belongings from criminal acts. Optional extensions may include coverage for armed robbery or theft by employees, depending on the insurer.",
+        "img": "theft"
     },
     {
         "id": 18,
-        "name": "Student Personal Cover",
-        "description": "Accident coverage for students."
+        "name": "WIBA",
+        "description": "WIBA Insurance (Work Injury Benefits Act Insurance) offers mandatory coverage for employees injured, disabled, or who die due to work-related incidents. It covers medical expenses, lost income, permanent disability, and death benefits. The policy also includes hospitalization, rehabilitation, and funeral costs. WIBA protects both employers and employees by ensuring timely compensation without the need to prove fault."
     },
     {
         "id": 19,
-        "name": "WIBA",
-        "description": "Work Injury Benefits Act compliant group cover."
+        "name": "Travel",
+        "description": "Travel Insurance provides financial protection against unexpected events that may occur while traveling, either locally or internationally. It typically covers medical emergencies, trip cancellations or interruptions, lost or delayed luggage, and personal accidents during the journey. Some policies may also include emergency evacuation, travel delays, and personal liability. Travel insurance offers peace of mind by reducing the financial and logistical stress of unforeseen incidents, making it an essential safeguard for both leisure and business travelers.",
+        "img": "travel"
     },
     {
         "id": 20,
-        "name": "Travel",
-        "description": "Travel-related emergency and health cover."
-    },
-    {
-        "id": 21,
         "name": "Group Personal Accident (GPA)",
-        "description": "Provides group-based coverage for accidental injury, disability, or death. It offers financial protection to employees, members, or teams in the event of unforeseen accidents.",
+        "description": "Group Personal Accident (GPA) Insurance offers financial protection to employees or members of a group in the event of accidental injury, disability, or death. It covers benefits such as accidental death, permanent or temporary disability, medical expenses, and sometimes funeral costs. This policy ensures that affected individuals or their dependents receive timely compensation, reducing financial hardship. GPA is especially valuable for organizations looking to enhance employee welfare and provide additional security beyond mandatory insurance schemes.",
         "img": "gpa"
     }
 ]

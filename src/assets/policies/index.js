@@ -14,6 +14,10 @@ import cit from "./cit.jpg"
 import medical from "./medical.jpg"
 import paccident from "./paccident.jpg"
 import pindemnity from "./pindemnity.jpg"
+import theft from "./theft.jpg"
+import wiba from "./wiba.jpg"
+import travel from "./travel.jpg"
+import gpa from "./gpa.jpg"
 
 export {
     motor,
@@ -32,4 +36,8 @@ export {
     medical,
     paccident,
     pindemnity,
+    theft,
+    wiba,
+    travel,
+    gpa
 };

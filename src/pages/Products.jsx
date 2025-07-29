@@ -24,14 +24,14 @@ const Products = () => {
               />
             )}
             <div className="p-4">
-              <h2 className="text-lg font-semibold text-gray-800 mb-2">{policy.name}</h2>
-              <p className="text-sm text-gray-600">{policy.description}</p>
               <Link
                 to={`/products/${policy.id}`}
-                className="mt-4 inline-block text-sm text-blue-600 hover:underline"
+                className="mt-4 inline-block text-sm text-blue-600 "
               >
-                Learn More →
+                <h2 className="text-lg font-semibold text-gray-800 mb-2 hover:text-blue-500">{policy.name}</h2>
               </Link>
+              <p className="text-sm text-gray-600">{policy.description}</p>
+
             </div>
           </div>
         ))}

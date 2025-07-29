@@ -29,7 +29,7 @@ const ProductDetail = () => {
         <div className="p-6 max-w-5xl mx-auto">
             <h1 className="text-3xl font-bold mb-6">{policy.name}</h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
                 {imageSrc && (
                     <img
                         src={imageSrc}
