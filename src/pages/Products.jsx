@@ -30,7 +30,7 @@ const Products = () => {
               >
                 <h2 className="text-lg font-semibold text-gray-800 mb-2 hover:text-blue-500">{policy.name}</h2>
               </Link>
-              <p className="text-sm text-gray-600">{policy.description}</p>
+              <p className="text-sm text-gray-950">{policy.description}</p>
 
             </div>
           </div>

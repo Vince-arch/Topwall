@@ -3,6 +3,7 @@ import React from 'react'
 //import side from '../assets/side.jpg'
 import insurance from "../assets/insurance.jpg"
 import twimage from "../assets/twimage.png"
+import Caurosel from "../components/Caurosel"
 
 export const Home = () => {
   return (
@@ -39,8 +40,8 @@ export const Home = () => {
           span various sectors, including land, air, and marine insurance.
         </p>
       </div>
-      <div name='couresel'>
-
+      <div name='couresel (partners)'>
+        <Caurosel />
       </div>
       <div name='testimonials'>
 

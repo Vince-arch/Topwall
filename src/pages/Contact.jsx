@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className="min-h-screen bg-base-100 flex items-center justify-center px-4" >
-      <form className="card w-full max-w-md shadow-lg bg-base-200 p-8 space-y-4">
+      <form className="card w-full max-w-md shadow-lg bg-gray-200 p-8 space-y-4">
         <h2 className="text-2xl font-bold text-center">Contact Us</h2>
 
         <input type="text" placeholder="Your Name" className="input input-bordered focus:outline-none w-full" required />
